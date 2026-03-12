@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Атмосфера - студия интерьера</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="brand">
+                    <span class="brand-icon">✦</span>
+                    <span class="brand-name">Атмосфера</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Создаём пространства, в которых хочется жить</h1>
+            <p class="subtitle">Дизайн интерьера, который отражает вашу индивидуальность</p>
+            <a href="#contacts" class="cta-button">Получить консультацию</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>О студии</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Мы создаём уникальные интерьеры, сочетая эстетику и функциональность. Каждый проект — это история о комфорте и стиле.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">150+</span>
+                        <span class="stat-label">Реализованных проектов</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5 лет</span>
+                        <span class="stat-label">Опыта работы</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/bed.jpg" alt="Дизайн спальни">
+                    </div>
+                    <h3>Дизайн спальни</h3>
+                    <p>Создаём уютное пространство для отдыха и восстановления сил</p>
+                    <span class="service-price">от 15 000 ₽</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/chair1.jpg" alt="Гостиная">
+                    </div>
+                    <h3>Гостиная</h3>
+                    <p>Сердце дома — место для встреч и семейного отдыха</p>
+                    <span class="service-price">от 20 000 ₽</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/table.jpg" alt="Кухня и столовая">
+                    </div>
+                    <h3>Кухня и столовая</h3>
+                    <p>Функциональные и красивые пространства для кулинарии</p>
+                    <span class="service-price">от 18 000 ₽</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/chair2.jpg" alt="Кабинет">
+                    </div>
+                    <h3>Рабочий кабинет</h3>
+                    <p>Эргономичное пространство для работы и творчества</p>
+                    <span class="service-price">от 12 000 ₽</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/sofa1.jpg" alt="Детская">
+                    </div>
+                    <h3>Детская комната</h3>
+                    <p>Безопасное и вдохновляющее пространство для детей</p>
+                    <span class="service-price">от 16 000 ₽</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/sofa2.jpg" alt="Полный проект">
+                    </div>
+                    <h3>Полный дизайн-проект</h3>
+                    <p>Комплексное оформление всего интерьера под ключ</p>
+                    <span class="service-price">от 80 000 ₽</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>Портфолио</h2>
+            <div class="portfolio-item">
+                <img src="images/hero-bg.jpg" alt="Пример работы">
+                <div class="portfolio-overlay">
+                    <h3>Скандинавский минимализм</h3>
+                    <p>Квартира 85 м²</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <div class="contacts-wrapper">
+                <div class="contact-info">
+                    <p class="contact-text">Готовы создать интерьер вашей мечты?</p>
+                    <p class="contact-detail">Email: hello@atmosfera.design</p>
+                    <p class="contact-detail">Телефон: +7 (999) 123-45-67</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш email" required>
+                    <textarea placeholder="Расскажите о вашем проекте" rows="4"></textarea>
+                    <button type="submit" class="submit-btn">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Студия интерьера "Атмосфера"</p>
+            <p class="footer-credit">Сверстала Ксюша Касявчик</p>
+        </div>
+    </footer>
+
+</body>
+</html>
