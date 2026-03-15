@@ -1,87 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Интерьер</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Интерьер</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:400,500,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <section class="top">
-        <div class="container">
-            <header class="top-header">
-                <a href="#" class="top-logo-link">
-                    <img src="images/logo.png" alt="Логотип" class="top-logo">
-                </a>
 
-                <nav class="top-menu">
-                    <a href="#goods">Каталог</a>
-                    <a href="#">Корзина</a>
-                </nav>
-            </header>
+<section class="hero">
 
-            <div class="top-info">
-                <h1>Всё, чего<br>заслуживает ваш дом</h1>
-                <p>Наша мебель — ваше отражение</p>
-                <a href="#goods">Перейти в каталог</a>
-            </div>
-        </div>
-    </section>
+<div class="center">
 
-    <main>
-        <section class="goods container" id="goods">
-            <h2>Каталог товаров</h2>
+<header class="header">
 
-            <div class="goods-list">
-                <article class="card">
-                    <img src="images/bed.jpg" alt="Кровать TATRAN">
-                    <h3>Кровать TATRAN</h3>
-                    <p class="card-text">Современная кровать с мягким изголовьем, которая хорошо подойдет для уютной спальни.</p>
-                    <span class="card-price">120 000 руб.</span>
-                </article>
+<a href="#" class="logo-box">
+<img src="images/logo.png" alt="logo">
+</a>
 
-                <article class="card">
-                    <img src="images/chair1.jpg" alt="Кресло VILORA">
-                    <h3>Кресло VILORA</h3>
-                    <p class="card-text">Компактное кресло для отдыха, чтения и оформления современной зоны у окна.</p>
-                    <span class="card-price">21 000 руб.</span>
-                </article>
+<nav class="menu">
+<a href="#catalog">Каталог</a>
+<a href="#">Корзина</a>
+</nav>
 
-                <article class="card">
-                    <img src="images/table.jpg" alt="Стол MENU">
-                    <h3>Стол MENU</h3>
-                    <p class="card-text">Удобный стол для кухни, гостиной или столовой с простым и аккуратным дизайном.</p>
-                    <span class="card-price">34 000 руб.</span>
-                </article>
+</header>
 
-                <article class="card">
-                    <img src="images/chair2.jpg" alt="Кресло ASKESTA">
-                    <h3>Кресло ASKESTA</h3>
-                    <p class="card-text">Мягкое кресло нейтрального оттенка, которое подойдет для дома и зоны отдыха.</p>
-                    <span class="card-price">68 000 руб.</span>
-                </article>
+<div class="hero-content">
 
-                <article class="card">
-                    <img src="images/sofa1.jpg" alt="Стол NORMAN">
-                    <h3>Стол NORMAN</h3>
-                    <p class="card-text">Практичный стол для повседневного использования, выполненный в спокойном стиле.</p>
-                    <span class="card-price">40 000 руб.</span>
-                </article>
+<h1>
+Всё, чего заслуживает<br>
+ваш дом
+</h1>
 
-                <article class="card">
-                    <img src="images/sofa2.jpg" alt="Диван NASTAN">
-                    <h3>Диван NASTAN</h3>
-                    <p class="card-text">Прямой диван для гостиной с лаконичным внешним видом и удобной посадкой.</p>
-                    <span class="card-price">80 000 руб.</span>
-                </article>
-            </div>
-        </section>
-    </main>
+<p>Наша мебель — ваше отражение</p>
 
-    <footer class="bottom">
-        <div class="container">
-            <p>Сайт был сверстан Ксюша Касявчик</p>
-        </div>
-    </footer>
+<a href="#catalog" class="catalog-link">Перейти в каталог</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="catalog center" id="catalog">
+
+<h2>Каталог товаров</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="images/bed.jpg" alt="">
+<h3>Кровать TATRAN</h3>
+<p>Современная кровать с мягким изголовьем, которая хорошо подойдет для уютной спальни.</p>
+<span>120 000 руб.</span>
+</div>
+
+<div class="product">
+<img src="images/chair1.jpg" alt="">
+<h3>Кресло VILORA</h3>
+<p>Компактное кресло для отдыха, которое хорошо впишется в современный интерьер.</p>
+<span>21 000 руб.</span>
+</div>
+
+<div class="product">
+<img src="images/table.jpg" alt="">
+<h3>Стол MENU</h3>
+<p>Лаконичный стол для кухни или гостиной с современным дизайном.</p>
+<span>34 000 руб.</span>
+</div>
+
+<div class="product">
+<img src="images/chair2.jpg" alt="">
+<h3>Кресло ASKESTA</h3>
+<p>Мягкое кресло нейтрального цвета для комфортного отдыха дома.</p>
+<span>68 000 руб.</span>
+</div>
+
+<div class="product">
+<img src="images/sofa1.jpg" alt="">
+<h3>Стол NORMAN</h3>
+<p>Практичный стол, который подойдет для повседневного использования.</p>
+<span>40 000 руб.</span>
+</div>
+
+<div class="product">
+<img src="images/sofa2.jpg" alt="">
+<h3>Диван NASTAN</h3>
+<p>Современный диван с простыми линиями для уютной гостиной.</p>
+<span>80 000 руб.</span>
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+<div class="center">
+<p>Сайт был сверстан Ксюша Касявчик</p>
+</div>
+</footer>
+
 </body>
 </html>
